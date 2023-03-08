@@ -2,7 +2,8 @@
 
 ## Overview
 
-An image library app which allows users to view, favorite and delete images fetched from an API
+An image library app which allows users to view, favorite and delete images fetched from an API.
+
 Please see a hosted version here: [Image library](https://image-library-phi.vercel.app/)
 
 ---
