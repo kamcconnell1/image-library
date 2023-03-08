@@ -1,0 +1,14 @@
+.tabs {
+  display: flex;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.tabs::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid var(--grey-2);
+}

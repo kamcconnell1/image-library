@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: var(--font-weight-semibold);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+:root {
+  --grey: #64748b;
+  --grey-1: #334154;
+  --grey-2: #cbd5e1;
+  --grey-3: #f7fafc;
+  --grey-4: #e2e8f0;
+  --grey-5: #f7fafd;
+  --active: #482deb;
+
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}

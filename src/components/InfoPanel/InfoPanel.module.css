@@ -1,0 +1,60 @@
+.entityInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.entityInfoTitle,
+.entityInfoData,
+.description {
+  margin: 0.5rem 0;
+  font-size: 0.875rem;
+}
+
+.entityInfoTitle,
+.description {
+  color: var(--grey);
+}
+
+.entityInfoData {
+  color: var(--grey-1);
+  text-align: right;
+}
+
+.divider {
+  border-top: 1px solid var(--grey-2);
+}
+
+.card img {
+  height: 16rem;
+}
+
+.card div:first-child {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.title {
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+.deleteButton {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border: 1px solid var(--grey-2);
+  color: var(--grey-1);
+  border-radius: 4px;
+  background: none;
+  font-size: 0.875rem;
+}
+
+.deleteButton:hover {
+  background: var(--grey-5);
+}
+
+@media (max-width: 1200px) {
+  .card img {
+    height: unset;
+  }
+}

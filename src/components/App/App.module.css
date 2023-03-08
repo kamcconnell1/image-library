@@ -1,0 +1,29 @@
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+.title {
+  margin-top: 0;
+}
+
+.leftPane,
+.rightPane {
+  padding: 2rem;
+}
+
+.leftPane {
+  background-color: var(--grey-3);
+  border-right: 1px solid var(--grey-4);
+  width: 100%;
+}
+
+.rightPane {
+  flex-basis: 30rem;
+}
+
+@media (max-width: 1200px) {
+  .rightPane {
+    flex-basis: 20rem;
+  }
+}
