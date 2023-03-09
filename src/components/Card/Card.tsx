@@ -36,7 +36,7 @@ const Card = ({
   isFavorited,
   isSelected
 }: CardProps) => {
-  const sizeInMB = (sizeInBytes * 0.000001).toFixed(1);
+  const sizeInMB = Number((sizeInBytes / Math.pow(1024, 2)).toFixed(1));
   return (
     <div
       className={classNames(styles.card, className)}
