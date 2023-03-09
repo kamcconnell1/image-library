@@ -31,7 +31,7 @@ describe('Card', () => {
     expect(image).toHaveAttribute('src', url);
     expect(image).toHaveAttribute('alt', description);
     expect(screen.getByText(filename)).toBeInTheDocument();
-    expect(screen.getByText('4.8 MB')).toBeInTheDocument();
+    expect(screen.getByText('4.6 MB')).toBeInTheDocument();
     expect(screen.queryByRole('button')).not.toBeInTheDocument();
   });
 
