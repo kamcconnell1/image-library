@@ -13,11 +13,17 @@
   border: unset;
   width: 100%;
   padding: 0;
+  outline: none;
+}
+
+.imageButton:focus-visible .image {
+  outline: 4px solid var(--active-light);
 }
 
 .selected,
 .imageButton:hover .image {
   border-color: var(--active);
+  border-width: 2px;
 }
 
 p {
@@ -50,6 +56,10 @@ p {
   background-color: transparent;
   border: none;
   color: var(--grey);
+}
+
+.favoriteButton:focus-visible {
+  outline: 4px solid var(--active-light);
 }
 
 .favorited {

@@ -53,6 +53,10 @@
   background: var(--grey-5);
 }
 
+.deleteButton:focus-visible {
+  outline: 4px solid var(--active-light);
+}
+
 @media (max-width: 1200px) {
   .card img {
     height: unset;

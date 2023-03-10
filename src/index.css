@@ -18,6 +18,7 @@ code {
   --grey-4: #e2e8f0;
   --grey-5: #f7fafd;
   --active: #482deb;
+  --active-light: #dad5fb;
 
   --font-weight-semibold: 600;
   --font-weight-bold: 700;
@@ -27,3 +28,14 @@ button {
   font-family: inherit;
   cursor: pointer;
 }
+
+/* button:focus-visible::before {
+  box-shadow: 0 0 0 4px var(--action);
+  border-radius: 2px;
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 4px;
+} */

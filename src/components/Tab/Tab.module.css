@@ -30,3 +30,7 @@
   opacity: 1;
   transition: opacity 0.4s linear;
 }
+
+.tab:focus-visible {
+  outline: 4px solid var(--active-light);
+}
